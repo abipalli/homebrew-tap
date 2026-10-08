@@ -1,28 +1,28 @@
 class BuzzBackendDocker < Formula
   desc "Run Buzz agents on your own server: remote-agent backend for any Docker host"
   homepage "https://github.com/abipalli/buzz-backend-docker"
-  version "0.2.0"
+  version "0.2.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/abipalli/buzz-backend-docker/releases/download/v0.2.0/buzz-backend-docker-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6e356dcd49f139e00cc9ab3f37ecbbf7abd96de1e09f7be3349e67dbe47900ea"
+      url "https://github.com/abipalli/buzz-backend-docker/releases/download/v0.2.1/buzz-backend-docker-v0.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a093b11e8e0fd59878c55e9d1afb9dcb6923853827a17447d9105ab780937027"
     end
     on_intel do
-      url "https://github.com/abipalli/buzz-backend-docker/releases/download/v0.2.0/buzz-backend-docker-v0.2.0-x86_64-apple-darwin.tar.gz"
-      sha256 "a570c933f9af25c11be2b029a66e1bfbcf7f311266168a806afd9ac85aee66e3"
+      url "https://github.com/abipalli/buzz-backend-docker/releases/download/v0.2.1/buzz-backend-docker-v0.2.1-x86_64-apple-darwin.tar.gz"
+      sha256 "3258b35d2d27b8d51f4f265b3c903752875d3848da182e25dc7a6698c4093e86"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/abipalli/buzz-backend-docker/releases/download/v0.2.0/buzz-backend-docker-v0.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "e60c6e083e5f4e1c63b9e96093cef05388246c0b740f4c6d49ba6732cc4e621e"
+      url "https://github.com/abipalli/buzz-backend-docker/releases/download/v0.2.1/buzz-backend-docker-v0.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "ffa18f3499358bc8a8e268e9f2f5a2994483ff3052554bbf9a07e7839d233d34"
     end
     on_intel do
-      url "https://github.com/abipalli/buzz-backend-docker/releases/download/v0.2.0/buzz-backend-docker-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "01c2cd6937df242d08ba1359e99fa28fe684a1332926b19031dfe900fb17b8ba"
+      url "https://github.com/abipalli/buzz-backend-docker/releases/download/v0.2.1/buzz-backend-docker-v0.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8fed866ec3f8aa3b24bc428901f5980e46b1c1c229066a2ef1596753a7524e42"
     end
   end
 
